@@ -38,7 +38,7 @@ The dataset used in this project is public and contains prize records with neste
 
 ### Architecture / workflow
 
-![Workflow diagram](readme_assets/workflow.png)
+![Workflow diagram](workflow.png)
 
 ## 2. Data description
 
