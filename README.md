@@ -243,26 +243,7 @@ This project focuses on the **Ingest & Storage** module. It explicitly demonstra
 
 ---
 
-## 9. Suggested folder structure
-
-```text
-project/
-├── README.md
-├── nobel_prize.json
-├── nobel_mongo.json
-├── readme_assets/
-│   ├── page2-02.png
-│   ├── page4-04.png
-│   ├── page5-05.png
-│   ├── page6-06.png
-│   └── page7-07.png
-└── scripts/
-    └── convert_json_to_jsonl.py
-```
-
----
-
-## 10. How to reuse this project
+## 9. How to reuse this project
 
 If someone wants to reproduce this exact setup, the only things they need are:
 
