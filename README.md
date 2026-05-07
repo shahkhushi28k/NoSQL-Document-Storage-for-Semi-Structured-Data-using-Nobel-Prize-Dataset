@@ -38,9 +38,7 @@ The dataset used in this project is public and contains prize records with neste
 
 ### Architecture / workflow
 
-![Workflow diagram](readme_assets/page2-02.png)
-
-![Jetstream2 VM ready state](readme_assets/page2-02.png)
+![Workflow diagram](readme_assets/workflow.png)
 
 ## 2. Data description
 
@@ -201,39 +199,7 @@ db.prizes.find(
 
 ---
 
-## 5. Screenshots / evidence
-
-These screenshots show the workflow and the validation output captured during the project.
-
-### Workflow and environment
-
-![Workflow diagram](readme_assets/page2-02.png)
-
-### Aggregation results
-
-![Category counts](readme_assets/page4-04.png)
-
-![Laureate counts](readme_assets/page4-04.png)
-
-![Most recent year by category](readme_assets/page5-05.png)
-
-### Nested filtering and computed fields
-
-![Motivation search](readme_assets/page5-05.png)
-
-![Decade counts](readme_assets/page6-06.png)
-
-![Surname initial filter](readme_assets/page6-06.png)
-
-### Repeat winners and 2025 records
-
-![Repeat winner counts](readme_assets/page7-07.png)
-
-![2025 records](readme_assets/page7-07.png)
-
----
-
-## 6. Validation plan
+## 5. Validation plan
 
 Validation was done at two levels:
 
@@ -247,13 +213,13 @@ Validation was done at two levels:
 
 ---
 
-## 7. Cleanup
+## 6. Cleanup
 
 After the project was complete, the VM was stopped or shelved to avoid unnecessary usage charges and to keep resources tidy.
 
 ---
 
-## 8. Notes on course connection
+## 7. Notes on course connection
 
 This project focuses on the **Ingest & Storage** module. It explicitly demonstrates:
 
@@ -266,7 +232,7 @@ This project focuses on the **Ingest & Storage** module. It explicitly demonstra
 
 ---
 
-## 9. References
+## 8. References
 
 - Cattell, R. (2011). *Scalable SQL and NoSQL data stores*. ACM SIGMOD Record, 39(4), 12–27.
 - MongoDB, Inc. (2024). *MongoDB documentation*. https://www.mongodb.com/docs/
@@ -277,7 +243,7 @@ This project focuses on the **Ingest & Storage** module. It explicitly demonstra
 
 ---
 
-## 10. Suggested folder structure
+## 9. Suggested folder structure
 
 ```text
 project/
@@ -296,7 +262,7 @@ project/
 
 ---
 
-## 11. How to reuse this project
+## 10. How to reuse this project
 
 If someone wants to reproduce this exact setup, the only things they need are:
 
